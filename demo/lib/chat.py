@@ -56,11 +56,11 @@ def rule():
 
 
 def ask(messages=None, prompt="> "):
-    r"""One line from the user, or None when the shell is closed.
+    """One line from the user, or None when the shell is closed.
 
-    Lines starting with a backslash are commands for the shell itself:
-    \messages (or \msg, \message) prints the history so far, \tools lists the
-    registered tools. A line starting with ! runs in the system shell."""
+    Lines starting with a slash are commands for the shell itself: /messages
+    (or /msg, /message) prints the history so far, /tools lists the registered
+    tools. A line starting with ! runs in the system shell."""
     while True:
         rule()
         try:
@@ -71,9 +71,9 @@ def ask(messages=None, prompt="> "):
         if msg.startswith("!"):
             rule()
             subprocess.run(msg[1:], shell=True, cwd=ROOT)
-        elif msg in ("\\msg", "\\message", "\\messages"):
+        elif msg in ("/msg", "/message", "/messages"):
             history(messages or [])
-        elif msg == "\\tools":
+        elif msg == "/tools":
             tools()
         elif msg:
             return msg
