@@ -1,0 +1,14 @@
+/* Deck typeface. One serif family is bundled, Source Serif 4, through the
+   fontsource package imported in styles/index.ts; browsers fetch only the
+   faces actually used. Sturdy on projection, optical sizes, true small caps. */
+:root {
+  --font-serif: 'Source Serif 4 Variable', 'Source Serif 4', 'Times New Roman', serif;
+
+  /* Slidev sets these from the frontmatter; route them to the choice above
+     so the whole deck, layouts, markdown slides and dividers, follows it. */
+  --slidev-font-sans: var(--font-serif) !important;
+  --slidev-font-serif: var(--font-serif) !important;
+}
+.slidev-layout {
+  font-family: var(--font-serif);
+}

@@ -1,0 +1,9 @@
+{
+  "model": "openai/clip-vit-base-patch32",
+  "image": "dog_a",
+  "caption": "a dog in the woods",
+  "tokens": 7,
+  "pixels": 224,
+  "dim": 512,
+  "cosine": 0.298
+}

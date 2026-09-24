@@ -1,0 +1,43 @@
+{
+  "model": "openai/clip-vit-base-patch32",
+  "dim": 512,
+  "temperature": 100.0,
+  "images": [
+    "dog_a",
+    "dog_b",
+    "mug_a",
+    "mug_b"
+  ],
+  "captions": [
+    "a golden retriever in a forest",
+    "a dog resting on a red doormat",
+    "a steaming yellow striped mug",
+    "a white enamel mug with a skull"
+  ],
+  "cosine": [
+    [
+      0.348,
+      0.218,
+      0.121,
+      0.127
+    ],
+    [
+      0.225,
+      0.36,
+      0.139,
+      0.126
+    ],
+    [
+      0.186,
+      0.165,
+      0.31,
+      0.239
+    ],
+    [
+      0.139,
+      0.137,
+      0.253,
+      0.277
+    ]
+  ]
+}

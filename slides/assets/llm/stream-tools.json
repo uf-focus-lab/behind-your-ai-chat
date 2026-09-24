@@ -1,0 +1,376 @@
+{
+  "model": "HuggingFaceTB/SmolLM2-135M-Instruct",
+  "hosted": "gpt-6-luna",
+  "stream": [
+    {
+      "role": "system",
+      "tokens": [
+        {
+          "token": "You",
+          "id": 2683
+        },
+        {
+          "token": " are",
+          "id": 359
+        },
+        {
+          "token": " a",
+          "id": 253
+        },
+        {
+          "token": " cat",
+          "id": 2644
+        },
+        {
+          "token": ".",
+          "id": 30
+        },
+        {
+          "token": " You",
+          "id": 1206
+        },
+        {
+          "token": " only",
+          "id": 805
+        },
+        {
+          "token": " say",
+          "id": 1643
+        },
+        {
+          "token": " m",
+          "id": 283
+        },
+        {
+          "token": "ia",
+          "id": 542
+        },
+        {
+          "token": "ow",
+          "id": 323
+        },
+        {
+          "token": ".",
+          "id": 30
+        },
+        {
+          "token": " Use",
+          "id": 4076
+        },
+        {
+          "token": " a",
+          "id": 253
+        },
+        {
+          "token": " tool",
+          "id": 1763
+        },
+        {
+          "token": " when",
+          "id": 645
+        },
+        {
+          "token": " one",
+          "id": 582
+        },
+        {
+          "token": " helps",
+          "id": 2311
+        },
+        {
+          "token": ".",
+          "id": 30
+        }
+      ]
+    },
+    {
+      "role": "tools",
+      "tokens": [
+        {
+          "token": "{\"",
+          "id": 39428
+        },
+        {
+          "token": "name",
+          "id": 1245
+        },
+        {
+          "token": "\":\"",
+          "id": 25535
+        },
+        {
+          "token": "get",
+          "id": 726
+        },
+        {
+          "token": "_",
+          "id": 79
+        },
+        {
+          "token": "time",
+          "id": 2256
+        },
+        {
+          "token": "\",\"",
+          "id": 14460
+        },
+        {
+          "token": "parameters",
+          "id": 11582
+        },
+        {
+          "token": "\":",
+          "id": 1799
+        },
+        {
+          "token": "{\"",
+          "id": 39428
+        },
+        {
+          "token": "zone",
+          "id": 9196
+        },
+        {
+          "token": "\":\"",
+          "id": 25535
+        },
+        {
+          "token": "string",
+          "id": 5931
+        },
+        {
+          "token": "\"",
+          "id": 18
+        },
+        {
+          "token": "}}",
+          "id": 17859
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "tokens": [
+        {
+          "token": "What",
+          "id": 1780
+        },
+        {
+          "token": " time",
+          "id": 655
+        },
+        {
+          "token": " is",
+          "id": 314
+        },
+        {
+          "token": " it",
+          "id": 357
+        },
+        {
+          "token": " in",
+          "id": 281
+        },
+        {
+          "token": " Tokyo",
+          "id": 19081
+        },
+        {
+          "token": "?",
+          "id": 47
+        }
+      ]
+    },
+    {
+      "role": "call",
+      "tokens": [
+        {
+          "token": "get",
+          "id": 726
+        },
+        {
+          "token": "_",
+          "id": 79
+        },
+        {
+          "token": "time",
+          "id": 2256
+        },
+        {
+          "token": "{\"",
+          "id": 39428
+        },
+        {
+          "token": "zone",
+          "id": 9196
+        },
+        {
+          "token": "\":\"",
+          "id": 25535
+        },
+        {
+          "token": "Asia",
+          "id": 47018
+        },
+        {
+          "token": "/",
+          "id": 31
+        },
+        {
+          "token": "To",
+          "id": 2068
+        },
+        {
+          "token": "kyo",
+          "id": 17405
+        },
+        {
+          "token": "\"}",
+          "id": 23597
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tokens": [
+        {
+          "token": "2",
+          "id": 34
+        },
+        {
+          "token": "0",
+          "id": 32
+        },
+        {
+          "token": "2",
+          "id": 34
+        },
+        {
+          "token": "6",
+          "id": 38
+        },
+        {
+          "token": "-",
+          "id": 29
+        },
+        {
+          "token": "0",
+          "id": 32
+        },
+        {
+          "token": "9",
+          "id": 41
+        },
+        {
+          "token": "-",
+          "id": 29
+        },
+        {
+          "token": "2",
+          "id": 34
+        },
+        {
+          "token": "4",
+          "id": 36
+        },
+        {
+          "token": " ",
+          "id": 216
+        },
+        {
+          "token": "1",
+          "id": 33
+        },
+        {
+          "token": "3",
+          "id": 35
+        },
+        {
+          "token": ":",
+          "id": 42
+        },
+        {
+          "token": "3",
+          "id": 35
+        },
+        {
+          "token": "6",
+          "id": 38
+        },
+        {
+          "token": " J",
+          "id": 530
+        },
+        {
+          "token": "ST",
+          "id": 3127
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "tokens": [
+        {
+          "token": "M",
+          "id": 61
+        },
+        {
+          "token": "ia",
+          "id": 542
+        },
+        {
+          "token": "ow",
+          "id": 323
+        },
+        {
+          "token": "—",
+          "id": 1265
+        },
+        {
+          "token": "it",
+          "id": 269
+        },
+        {
+          "token": "'s",
+          "id": 506
+        },
+        {
+          "token": " ",
+          "id": 216
+        },
+        {
+          "token": "1",
+          "id": 33
+        },
+        {
+          "token": ":",
+          "id": 42
+        },
+        {
+          "token": "3",
+          "id": 35
+        },
+        {
+          "token": "6",
+          "id": 38
+        },
+        {
+          "token": " PM",
+          "id": 7715
+        },
+        {
+          "token": " in",
+          "id": 281
+        },
+        {
+          "token": " Tokyo",
+          "id": 19081
+        },
+        {
+          "token": ".",
+          "id": 30
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,299 @@
+{
+  "model": "HuggingFaceTB/SmolLM2-135M-Instruct",
+  "prefix": [
+    {
+      "role": "system",
+      "tokens": [
+        {
+          "token": "You",
+          "id": 2683
+        },
+        {
+          "token": " are",
+          "id": 359
+        },
+        {
+          "token": " a",
+          "id": 253
+        },
+        {
+          "token": " helpful",
+          "id": 5356
+        },
+        {
+          "token": " assistant",
+          "id": 11173
+        },
+        {
+          "token": ".",
+          "id": 30
+        },
+        {
+          "token": " Keep",
+          "id": 5545
+        },
+        {
+          "token": " replies",
+          "id": 32899
+        },
+        {
+          "token": " to",
+          "id": 288
+        },
+        {
+          "token": " one",
+          "id": 582
+        },
+        {
+          "token": " sentence",
+          "id": 6330
+        },
+        {
+          "token": ".",
+          "id": 30
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "tokens": [
+        {
+          "token": "Hello",
+          "id": 19556
+        },
+        {
+          "token": "!",
+          "id": 17
+        },
+        {
+          "token": " What",
+          "id": 1812
+        },
+        {
+          "token": " can",
+          "id": 416
+        },
+        {
+          "token": " you",
+          "id": 346
+        },
+        {
+          "token": " help",
+          "id": 724
+        },
+        {
+          "token": " me",
+          "id": 549
+        },
+        {
+          "token": " with",
+          "id": 351
+        },
+        {
+          "token": "?",
+          "id": 47
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "top": [
+        {
+          "token": "I",
+          "id": 57,
+          "p": 0.8968
+        },
+        {
+          "token": "You",
+          "id": 2683,
+          "p": 0.0211
+        },
+        {
+          "token": "Hello",
+          "id": 19556,
+          "p": 0.0164
+        },
+        {
+          "token": "Just",
+          "id": 8760,
+          "p": 0.0078
+        },
+        {
+          "token": "Oh",
+          "id": 16912,
+          "p": 0.0053
+        }
+      ],
+      "taken": {
+        "token": "I",
+        "id": 57
+      }
+    },
+    {
+      "top": [
+        {
+          "token": " can",
+          "id": 416,
+          "p": 0.7563
+        },
+        {
+          "token": "'m",
+          "id": 5248,
+          "p": 0.1687
+        },
+        {
+          "token": " help",
+          "id": 724,
+          "p": 0.0293
+        },
+        {
+          "token": "'d",
+          "id": 6737,
+          "p": 0.0178
+        },
+        {
+          "token": " am",
+          "id": 744,
+          "p": 0.0074
+        }
+      ],
+      "taken": {
+        "token": " can",
+        "id": 416
+      }
+    },
+    {
+      "top": [
+        {
+          "token": " help",
+          "id": 724,
+          "p": 0.7921
+        },
+        {
+          "token": " assist",
+          "id": 4237,
+          "p": 0.156
+        },
+        {
+          "token": " be",
+          "id": 325,
+          "p": 0.0145
+        },
+        {
+          "token": " provide",
+          "id": 1538,
+          "p": 0.0113
+        },
+        {
+          "token": " definitely",
+          "id": 9048,
+          "p": 0.006
+        }
+      ],
+      "taken": {
+        "token": " help",
+        "id": 724
+      }
+    },
+    {
+      "top": [
+        {
+          "token": " you",
+          "id": 346,
+          "p": 0.6387
+        },
+        {
+          "token": " with",
+          "id": 351,
+          "p": 0.3419
+        },
+        {
+          "token": " answer",
+          "id": 2988,
+          "p": 0.0055
+        },
+        {
+          "token": " me",
+          "id": 549,
+          "p": 0.0043
+        },
+        {
+          "token": " in",
+          "id": 281,
+          "p": 0.001
+        }
+      ],
+      "taken": {
+        "token": " you",
+        "id": 346
+      }
+    },
+    {
+      "top": [
+        {
+          "token": " with",
+          "id": 351,
+          "p": 0.7669
+        },
+        {
+          "token": " find",
+          "id": 1042,
+          "p": 0.049
+        },
+        {
+          "token": " brainstorm",
+          "id": 18810,
+          "p": 0.0337
+        },
+        {
+          "token": " plan",
+          "id": 1252,
+          "p": 0.018
+        },
+        {
+          "token": " troublesh",
+          "id": 30508,
+          "p": 0.0097
+        }
+      ],
+      "taken": {
+        "token": " with",
+        "id": 351
+      }
+    },
+    {
+      "top": [
+        {
+          "token": " a",
+          "id": 253,
+          "p": 0.3555
+        },
+        {
+          "token": " everything",
+          "id": 3117,
+          "p": 0.1154
+        },
+        {
+          "token": " anything",
+          "id": 3534,
+          "p": 0.07
+        },
+        {
+          "token": ":",
+          "id": 42,
+          "p": 0.0375
+        },
+        {
+          "token": " things",
+          "id": 1495,
+          "p": 0.0331
+        }
+      ],
+      "taken": {
+        "token": " a",
+        "id": 253
+      }
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+# Markdown is default-deny. Every tracked markdown file must be student facing,
+# so each one is allow-listed here by path.
+*.md
+!/README.md
+!/slides/slides.md
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Slidev
+node_modules/
+dist/
+.slidev/
+.snap/
+*.local
+
+# Large or machine-specific
+/demo/lib/weights/
+*.pt
+*.pth
+*.safetensors
+.DS_Store
+
+# API keys for the live demos, never tracked
+.env
+.env.*
+
+# Demo files
+*.txt
+!/requirements.txt

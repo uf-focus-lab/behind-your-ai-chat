@@ -1,0 +1,166 @@
+{
+  "model": "gpt-6-luna",
+  "tokenizer": "HuggingFaceTB/SmolLM2-135M-Instruct",
+  "image": "dog_a-square.webp",
+  "image_tokens": 1185,
+  "question": [
+    {
+      "token": "What",
+      "id": 1780
+    },
+    {
+      "token": " is",
+      "id": 314
+    },
+    {
+      "token": " in",
+      "id": 281
+    },
+    {
+      "token": " the",
+      "id": 260
+    },
+    {
+      "token": " picture",
+      "id": 4177
+    },
+    {
+      "token": "?",
+      "id": 47
+    }
+  ],
+  "reply": [
+    {
+      "token": "A",
+      "id": 49
+    },
+    {
+      "token": " white",
+      "id": 2537
+    },
+    {
+      "token": " or",
+      "id": 355
+    },
+    {
+      "token": " cream",
+      "id": 8549
+    },
+    {
+      "token": "-",
+      "id": 29
+    },
+    {
+      "token": "colored",
+      "id": 20296
+    },
+    {
+      "token": " dog",
+      "id": 2767
+    },
+    {
+      "token": ",",
+      "id": 28
+    },
+    {
+      "token": " likely",
+      "id": 2003
+    },
+    {
+      "token": " a",
+      "id": 253
+    },
+    {
+      "token": " Golden",
+      "id": 13578
+    },
+    {
+      "token": " Ret",
+      "id": 3155
+    },
+    {
+      "token": "ri",
+      "id": 431
+    },
+    {
+      "token": "ever",
+      "id": 872
+    },
+    {
+      "token": ",",
+      "id": 28
+    },
+    {
+      "token": " sits",
+      "id": 16125
+    },
+    {
+      "token": " outdoors",
+      "id": 13224
+    },
+    {
+      "token": " among",
+      "id": 1486
+    },
+    {
+      "token": " greenery",
+      "id": 39509
+    },
+    {
+      "token": " and",
+      "id": 284
+    },
+    {
+      "token": " trees",
+      "id": 3417
+    },
+    {
+      "token": ".",
+      "id": 30
+    },
+    {
+      "token": " It",
+      "id": 657
+    },
+    {
+      "token": "’",
+      "id": 417
+    },
+    {
+      "token": "s",
+      "id": 99
+    },
+    {
+      "token": " wearing",
+      "id": 9064
+    },
+    {
+      "token": " a",
+      "id": 253
+    },
+    {
+      "token": " le",
+      "id": 425
+    },
+    {
+      "token": "ash",
+      "id": 1317
+    },
+    {
+      "token": " and",
+      "id": 284
+    },
+    {
+      "token": " looking",
+      "id": 3012
+    },
+    {
+      "token": " upward",
+      "id": 16408
+    },
+    {
+      "token": ".",
+      "id": 30
+    }
+  ]
+}

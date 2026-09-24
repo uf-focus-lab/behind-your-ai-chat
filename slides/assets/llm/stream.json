@@ -1,0 +1,209 @@
+{
+  "model": "HuggingFaceTB/SmolLM2-135M-Instruct",
+  "recorded": true,
+  "stream": [
+    {
+      "role": "system",
+      "tokens": [
+        {
+          "token": "You",
+          "id": 2683
+        },
+        {
+          "token": " are",
+          "id": 359
+        },
+        {
+          "token": " a",
+          "id": 253
+        },
+        {
+          "token": " helpful",
+          "id": 5356
+        },
+        {
+          "token": " assistant",
+          "id": 11173
+        },
+        {
+          "token": ".",
+          "id": 30
+        },
+        {
+          "token": " Keep",
+          "id": 5545
+        },
+        {
+          "token": " replies",
+          "id": 32899
+        },
+        {
+          "token": " to",
+          "id": 288
+        },
+        {
+          "token": " one",
+          "id": 582
+        },
+        {
+          "token": " sentence",
+          "id": 6330
+        },
+        {
+          "token": ".",
+          "id": 30
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "tokens": [
+        {
+          "token": "Hello",
+          "id": 19556
+        },
+        {
+          "token": "!",
+          "id": 17
+        },
+        {
+          "token": " What",
+          "id": 1812
+        },
+        {
+          "token": " can",
+          "id": 416
+        },
+        {
+          "token": " you",
+          "id": 346
+        },
+        {
+          "token": " help",
+          "id": 724
+        },
+        {
+          "token": " me",
+          "id": 549
+        },
+        {
+          "token": " with",
+          "id": 351
+        },
+        {
+          "token": "?",
+          "id": 47
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "tokens": [
+        {
+          "token": "Hello",
+          "id": 19556
+        },
+        {
+          "token": "!",
+          "id": 17
+        },
+        {
+          "token": " I",
+          "id": 339
+        },
+        {
+          "token": " can",
+          "id": 416
+        },
+        {
+          "token": " answer",
+          "id": 2988
+        },
+        {
+          "token": " questions",
+          "id": 2029
+        },
+        {
+          "token": ",",
+          "id": 28
+        },
+        {
+          "token": " explain",
+          "id": 3556
+        },
+        {
+          "token": " concepts",
+          "id": 3850
+        },
+        {
+          "token": ",",
+          "id": 28
+        },
+        {
+          "token": " draft",
+          "id": 10049
+        },
+        {
+          "token": " and",
+          "id": 284
+        },
+        {
+          "token": " edit",
+          "id": 12461
+        },
+        {
+          "token": " writing",
+          "id": 2385
+        },
+        {
+          "token": ",",
+          "id": 28
+        },
+        {
+          "token": " brainstorm",
+          "id": 18810
+        },
+        {
+          "token": " ideas",
+          "id": 2821
+        },
+        {
+          "token": ",",
+          "id": 28
+        },
+        {
+          "token": " help",
+          "id": 724
+        },
+        {
+          "token": " with",
+          "id": 351
+        },
+        {
+          "token": " coding",
+          "id": 8598
+        },
+        {
+          "token": ",",
+          "id": 28
+        },
+        {
+          "token": " and",
+          "id": 284
+        },
+        {
+          "token": " much",
+          "id": 1083
+        },
+        {
+          "token": " more",
+          "id": 540
+        },
+        {
+          "token": ".",
+          "id": 30
+        }
+      ]
+    }
+  ]
+}

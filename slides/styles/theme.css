@@ -1,0 +1,65 @@
+/* Deck-wide color tokens. Slidev toggles the `dark` class on the root
+   element, so every slide styles ink and rules through these variables
+   instead of hard-coded grays. The light values are the deck's original
+   monochrome palette; dark flips the ramp onto a near-black paper. */
+:root {
+  --paper: #ffffff;
+  --ink-strong: #000000;
+  --ink: #1a1a1a;
+  --ink-soft: #444444;
+  --ink-mute: #555555;
+  --ink-faint: #777777;
+  --ink-dim: #aaaaaa;
+  --ink-ghost: #999999;
+  --ink-hair: #cccccc;
+  --accent: #0088ff;
+}
+
+.dark {
+  --paper: #121212;
+  --ink-strong: #ffffff;
+  --ink: #e6e6e6;
+  --ink-soft: #c4c4c4;
+  --ink-mute: #b4b4b4;
+  --ink-faint: #909090;
+  --ink-dim: #6a6a6a;
+  --ink-ghost: #707070;
+  --ink-hair: #3d3d3d;
+  --accent: #2f9dff;
+}
+
+/* Slidev's theme underlines every link in a slide with a dashed border and
+   turns it solid (in its own teal) on hover. The rest-state dash is noise
+   under citation marks, and the hover border would double the accent
+   underline that Cite and References draw themselves. Cleared in both
+   states; `!important` because the theme's hover rule ties on specificity
+   and loads later. */
+.slidev-layout a,
+.slidev-layout a:hover {
+  border-bottom: 0 !important;
+}
+/* The theme also recolours a hovered link to its own teal; links stay in
+   the deck's accent. */
+.slidev-layout a:hover {
+  color: var(--accent) !important;
+}
+
+/* Chapter name at the start of a content-slide title: small caps. */
+h1 .chapter-title {
+  font-variant: small-caps;
+  font-weight: 600;
+}
+
+/* View transitions: the token chips that morph between the chat and the
+   stream slide take their time, so the class can follow each one. */
+::view-transition-group(*) {
+  animation-duration: 1s;
+  animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation-duration: 1s;
+}
+
+/* the bar in a "Lab 4 | title" line, lighter than the words around it */
+.deck-sep { color: var(--ink-faint); font-weight: 400; margin: 0 0.15em; }

@@ -1,0 +1,9 @@
+# CPU wheels are enough; a GPU is never required.
+#   python3.12 -m venv .venv && source .venv/bin/activate && pip install -r requirements.txt
+torch==2.14.0
+torchvision==0.29.0
+numpy==2.5.3
+pillow==12.3.0
+transformers==5.17.0
+huggingface_hub==1.32.0
+openai==3.19.0

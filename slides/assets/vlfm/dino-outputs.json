@@ -1,0 +1,9 @@
+{
+  "model": "facebook/dinov2-small",
+  "grid": 28,
+  "patch_px": 14,
+  "patches": [
+    784,
+    384
+  ]
+}

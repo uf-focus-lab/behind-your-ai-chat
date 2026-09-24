@@ -1,0 +1,14 @@
+{
+  "model": "openai/clip-vit-base-patch32",
+  "grid": 7,
+  "patch_px": 32,
+  "patches": [
+    49,
+    768
+  ],
+  "pooled": [
+    1,
+    512
+  ],
+  "class_width": 768
+}
