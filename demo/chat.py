@@ -6,7 +6,8 @@ You are a helpful assistant.
 
 messages = [{"role": "system", "content": SYSTEM_PROMPT}]
 
-while (question := ask()) is not None:
+while (question := ask(messages)) is not None:
     messages.append({"role": "user", "content": question})
-    response = complete(messages)
-    messages.append(show(response))
+    reply = complete(messages)
+    show(reply)
+    messages.append(reply)

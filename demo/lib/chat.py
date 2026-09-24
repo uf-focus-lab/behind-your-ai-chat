@@ -55,8 +55,12 @@ def rule():
     print(f"\033[2m{'─' * shutil.get_terminal_size().columns}\033[0m", flush=True)
 
 
-def ask(prompt="> "):
-    """One line from the user, or None when the shell is closed."""
+def ask(messages=None, prompt="> "):
+    r"""One line from the user, or None when the shell is closed.
+
+    Lines starting with a backslash are commands for the shell itself:
+    \messages (or \msg, \message) prints the history so far, \tools lists the
+    registered tools. A line starting with ! runs in the system shell."""
     while True:
         rule()
         try:
@@ -65,11 +69,41 @@ def ask(prompt="> "):
             print()
             return None
         if msg.startswith("!"):
-            # shell override
             rule()
             subprocess.run(msg[1:], shell=True, cwd=ROOT)
+        elif msg in ("\\msg", "\\message", "\\messages"):
+            history(messages or [])
+        elif msg == "\\tools":
+            tools()
         elif msg:
             return msg
+
+
+ROLES = {"system": ("system", "2"), "user": ("user", "0"), "assistant": ("agent", "36"), "tool": ("tool", "33")}
+
+
+def history(messages):
+    """The conversation so far, one line per message: [role] content, in the role's colour."""
+    rule()
+    for m in messages:
+        name, colour = ROLES.get(m["role"], (m["role"], "0"))
+        for call in m.get("tool_calls", []):
+            print(f"\033[{colour}m[{name}]\033[0m \033[33m{call['function']['name']}{call['function']['arguments']}\033[0m")
+        text = (m.get("content") or "").strip()
+        if text or not m.get("tool_calls"):
+            print(f"\033[{colour}m[{name}]\033[0m \033[{colour}m{text}\033[0m")
+
+
+def tools():
+    """Every tool registered so far, with its parameters and description."""
+    from lib.tool import TOOLS
+    rule()
+    if not TOOLS:
+        print("\033[2mno tools registered\033[0m")
+    for t in TOOLS:
+        f = t["function"]
+        params = ", ".join(f"{k}: {v['type']}" for k, v in f["parameters"]["properties"].items())
+        print(f"\033[33m{f['name']}({params})\033[0m  {f['description']}")
 
 
 def show(message):
